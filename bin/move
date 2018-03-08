@@ -1,21 +1,12 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/move.rb'
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#
 puts "Welcome to Tic Tac Toe!"
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+display_board(board)
+puts "Where would you like to go?"
 input = gets.strip
 input_to_index
-
-get_variable_from_file("./bin/move", "board")
-
-# puts "Where would you like to go?"
-#
-
-#
-
-#
-# move(board, index, value="X")
-#
-# display_board
+puts
