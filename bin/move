@@ -7,6 +7,9 @@ puts "Welcome to Tic Tac Toe!"
 
 input = gets.strip
 input_to_index
+
+get_variable_from_file("./bin/move", "board")
+
 # puts "Where would you like to go?"
 #
 
